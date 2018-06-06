@@ -1,13 +1,10 @@
 $(function() {
-      // $('ul ul:first').append("<li>I'm going to be the last sub-item");
-      // $("<li>I'm going to be the last time</li>").appendTo("ul ul:first");
-      // $('ul ul').prepend("<li>I'm going to be the last sub-item");
-      // $("<li>I'm going to be the last time</li>").prependTo("ul ul:first");
-      // // $("<h4>Grace Gamble</h4>").prependTo("#content");
-      // $(".red-box").after("<div class='red-box'>Another Red</div>");
-      // $(".blue-box").before("<div class='blue-box'>Another Blue</div>");
-      // $(".blue-box").before(function(){
-      //       return "<div class='blue-box'>Blue 2</div>";
+      // $("li").replaceWith("<li>Replaced</li>");
+      // $("li").replaceWith(function(){
+      //       return "<li>Replaced with function</li>";
       // });
-      $(".blue-box").before($(".red-box"));
+      // var firstListItem = $("li:first");
+      // $("p").replaceWith(firstListItem);
+      // $(".red-box, .blue-box").replaceWith("<div class='green-box'>Green Box</div>");
+      // $("<div class='green-box'>More green!</div>").replaceAll(".red-box, .blue-box");
 });
